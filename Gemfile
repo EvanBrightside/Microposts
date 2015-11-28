@@ -17,6 +17,8 @@ group :test do
   gem 'rspec-rails', '3.3.2'
   gem 'guard-rspec', '4.6.0'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 gem 'sass-rails', '4.0.2'
